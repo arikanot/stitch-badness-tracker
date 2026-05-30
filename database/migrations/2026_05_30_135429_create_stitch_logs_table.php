@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('stitch_logs', function (Blueprint $table) {
             $table->id();
-            $table->string('descrtiption');
+            $table->string('description');
             $table->integer('points');
             $table->timestamps();
         });
